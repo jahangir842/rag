@@ -5,7 +5,7 @@ from sentence_transformers import SentenceTransformer
 
 #model = SentenceTransformer('all-MiniLM-L6-v2')
 #model = SentenceTransformer('paraphrase-MiniLM-L3-v2')
-model = SentenceTransformer('thenlper/gte-tiny')
+model = SentenceTransformer('BAAI/bge-small-en-v1.5')
 
 # Generate embeddings
 embeddings = model.encode("Your text goes here")
