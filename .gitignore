@@ -1,5 +1,6 @@
 .env
 models
+onnx_model
 data
 *.db
 __pycache__
