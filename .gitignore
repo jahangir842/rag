@@ -1,0 +1,9 @@
+.env
+models
+data
+*.db
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pdb
