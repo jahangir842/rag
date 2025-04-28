@@ -1,0 +1,16 @@
+name: rag
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - langchain>=0.1.0
+      - langchain-community>=0.0.10
+      - chromadb>=0.4.18
+      - sentence-transformers>=2.2.2
+      - python-dotenv>=1.0.0
+      - pdfplumber==0.10.3
+      - pdfminer.six==20221105
+      - llama-cpp-python>=0.2.6
