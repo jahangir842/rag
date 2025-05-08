@@ -14,11 +14,30 @@ This guide will walk you through creating a Retrieval-Augmented Generation (RAG)
 - Python 3.8+
 - Basic understanding of Python programming
 - Familiarity with pip package manager
+- Conda package manager
 
-Required packages:
+### Setting up the Conda Environment
+
+Create a new Conda environment named "rag":
+
+```bash
+conda create -n rag python=3.8
+conda activate rag
+```
+
+### Installing Required Packages
+
+Once your Conda environment is activated, install the required packages:
 
 ```bash
 pip install langchain chromadb openai python-dotenv
+```
+
+Alternatively, you can install from the provided environment.yml file:
+
+```bash
+conda env create -f environment.yml
+conda activate rag
 ```
 
 ## Project Structure
